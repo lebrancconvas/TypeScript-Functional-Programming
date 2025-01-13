@@ -21,3 +21,27 @@
 ## Functor
 
 - In the context of Functional Programming, Functor means that we put a value onto a box (Lift) and we can operate something in the box to make new value inside the box without doing something on the box (Map / Fmap).
+
+## Monad
+
+- Functor with additional features
+  - Wrapping the value in the container / box.
+  - Flatten nested containers.
+  - Allows you to sequence operations where each step can depend on previous results.
+- Functor is like a box with a window where you can see and transform what's inside.
+- Monad is like a box with a window that you can open and put things in and take things out and combine with other boxes.
+
+### Type of Monad
+
+- **Maybe Monad**
+  - Handle with Nullable Value.
+- **Either Monad**
+  - Handle with Success and Failure case with Error Information.
+- **IO Monad**
+  - Handle with Side Effect and Make them explicit.
+- **State Monad**
+  - Handle with State Transformation.
+- **Reader Monad**
+  - Handle with Depecdency Injection.
+- **List Monad**
+  - Handle with Non-Deterministic Computation.
