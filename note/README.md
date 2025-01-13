@@ -9,8 +9,10 @@
   - **Side-Effect**: You got different output, Althought you assigned the same input.
 - **Immutability**
   - Doing something instead of Modified existing global variables (That made it's mutability).
+- **Arity**
+  - Number of function arguments.
 - **Currying**
-  - Function taking one argument but using another sequence of function for take a new argument instead of just create one function with multiple arguments.
+  - Function taking one argument but using another sequence of function for take a new argument instead of just create one function with multiple arguments. (Arity = 1 based)
 - **First-Class Function**
   - Function as a value to a variable (You can assign function to a variable).
 - **Higher-Order Function**
