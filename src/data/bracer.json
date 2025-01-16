@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Joshua Bright",
+    "rank": "B+",
+    "bracer_point": 350
+  },
+  {
+    "id": 2,
+    "name": "Estelle Bright",
+    "rank": "B+",
+    "bracer_point": 370
+  },
+  {
+    "id": 3,
+    "name": "Agate Crosner",
+    "rank": "A",
+    "bracer_point": 410
+  },
+  {
+    "id": 4,
+    "name": "Anelace Elfeid",
+    "rank": "B+",
+    "bracer_point": 320
+  },
+  {
+    "id": 5,
+    "name": "Scherazard Harvey",
+    "rank": "A",
+    "bracer_point": 410
+  }
+]

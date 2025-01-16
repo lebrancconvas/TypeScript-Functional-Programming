@@ -25,4 +25,10 @@ export class EitherMonad<L, R> {
       ? EitherMonad.right<L, T>(fn(this.value as R))
       : EitherMonad.left<L, T>(this.value as L)
   }
+
+  flatMap<T>(fn: (r:R) => EitherMonad<L, T>): EitherMonad<L, T> {
+    return this.isRight
+      ? fn(this.value as R)
+      : EitherMonad.left<L, T>(this.value as L)
+  }
 };
