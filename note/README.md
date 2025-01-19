@@ -20,9 +20,22 @@
 - **Function Composition**
   - Combination of multiple functions to create another function.
 
+### Terms
+
+- Pure Function: Function that doesn't make any side effects.
+- Immutable: Not doing something that effect the variable more than just how the function work.
+- Function Composition:
+  - f -> g -> x means f -> x
+- Cardinality (of the type):
+  - The Number of Elements that type has.
+
 ## Functor
 
 - In the context of Functional Programming, Functor means that we put a value onto a box (Lift) and we can operate something in the box to make new value inside the box without doing something on the box (Map / Fmap).
+
+## Maybe
+
+- Maybe Type means there is a type or nullable value. (T | null)
 
 ## Monad
 
